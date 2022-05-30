@@ -1,0 +1,49 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "require": "^0.4.4",
+    "sequelize": "^6.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "pre-commit": "lint-staged",
+    "husky-prepare": "npx husky install && npx husky set .husky/pre-commit 'npm run pre-commit'",
+    "start": "node server.js"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run prettier:check",
+      "npm run prettier:fix",
+      "npm run lint"
+    ]
+  },
+  "name": "tech-blog",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "husky": "^8.0.1",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikekuney/Tech-Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikekuney/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/Mikekuney/Tech-Blog#readme"
+}
