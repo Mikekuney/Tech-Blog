@@ -3,7 +3,7 @@
 ![License: Unlicensed](https://img.shields.io/badge/License-Unlicensed-blue.svg)
 
 ## **Purpose**
-
+An application for tech to blog about diferent things and add the website associated with it too. you may add, edit, delete and comment on different post and links.
 
 ## **Video**
 
@@ -27,10 +27,11 @@
 
 ## <h2 id="installation">**Installation**</h2>
 
+User must do an npm install to acquire necessary packages and make sure express, handlebars, mysql, require & sequelize are installed wiht packages.  source the database using mysql and run the seeds using npm run seeds and finally do npm start to run the application.
 
 ## <h2 id="usage">**Usage**</h2>
 
-
+Used for "Techies" to blog wiht each other about various things and websites.
 
 ## <h2 id="userLicense">**License**</h2>
 ### <em>NOTICE</em>:
@@ -43,7 +44,7 @@ http://unlicense.org/
 Mike Kuney
 
 ## <h2 id="technologies">**Technologies Used**</h2>
-
+JavaScript, CSS, Handlebars, Node, MySql, Express.js, Sequelize, bcrypt
 ## <h2 id="tests">**Tests**</h2>
 undefined
 
