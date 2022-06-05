@@ -6,12 +6,13 @@
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
     "require": "^0.4.4",
     "sequelize": "^6.19.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "seeds": "node seeds/index.js",
     "lint": "eslint .",
     "prettier:check": "prettier --check .",
@@ -34,6 +35,7 @@
   "devDependencies": {
     "eslint": "^8.15.0",
     "husky": "^8.0.1",
+    "jest": "^28.1.0",
     "nodemon": "^2.0.16",
     "prettier": "^2.6.2"
   },
